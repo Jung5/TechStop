@@ -1,21 +1,21 @@
 import React from "react";
-import { Container } from 'react-bootstrap'
+import { Container } from "react-bootstrap";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import HomeScreen from "./screens/HomeScreen";
 
 function App() {
   return (
     <>
-    <Header />
-    <main>
-      <Container>
-      <h1>Test</h1>
-      </Container>
-    </main>
-    <Footer />
+      <Header />
+      <main>
+        <Container>
+          <HomeScreen />
+        </Container>
+      </main>
+      <Footer />
     </>
   );
-  
 }
 
 export default App;
