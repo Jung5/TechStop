@@ -2,6 +2,11 @@ main{
     min-height: 80vh;
 }
 
-.fas{
-    font-size: medium;
+h3{
+    padding: 1rem 0;
 }
+
+.rating span{
+    margin: 0.1rem;
+}
+
