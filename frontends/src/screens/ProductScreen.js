@@ -6,17 +6,19 @@ import products from "../products";
 
 const ProductScreen = ({ match }) => {
   const { id } = useParams();
-  // const product = products.find((product) => product.id === match.params.id)
-  // const {image, name} = product
-
-  // console.log(id);
-
-  return (
-    <Outlet />
-  );
+  
+  return 
+      
+  
 };
 
 export default ProductScreen;
+
+// const product = products.find((product) => product.id === match.params.id)
+// const {image, name} = product
+
+// console.log(id);
+
 
 // const ProductScreen = ({match}) => {
 //     const {id} = useParams();
@@ -27,6 +29,7 @@ export default ProductScreen;
 // };
 
 // export default ProductScreen;
+
 
 // (<>
 // <Link className='btn btn-dark my-3'>To Main Page</Link>
@@ -39,3 +42,4 @@ export default ProductScreen;
 // </Row>
 //         </>
 // )
+
